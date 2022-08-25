@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase and Donate</title>
+    <link rel="stylesheet" href="./purchase and donate.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="./site.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <section class="topnav">
+        <a href="./Home page.html" class="logo"> <img src="Logo.png" height="100" width="100" alt="logo"></a>
+            <section class="header-right">
+            <a href="./Home page.html">Home</a>
+            <a href="./wildlife.html">Wildlife</a>
+            <a href="./beaches.html">Beaches</a>
+            <a href="./activities.html">Activities</a>
+            <section class="dropdown">
+                <button class="dropbtn">Heritages
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <section class="dropdown-content">
+                  <a href="./heritage1.html">Sigiriya Rock Fortress</a>
+                  <a href="./heritage2.html">Sacred City of Kandy</a>
+                </section>
+            </section>
+            <a href="./hotel contacts.html">Hotel Contacts</a>
+            <a href="./purchase and donate.html">Purchase and Donate </a>
+            <section class="search-container">
+                <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                </form>
+            </section>
+    
+            <section class="dropdown">
+            <button class="dropbtn">Language
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <section class="dropdown-content">
+                    <a href="#">English</a>
+                    <a href="#">Mandarin</a>
+                    <a href="#">French</a>
+                    <a href="#">Spanish</a>
+                    <a href="#">Sinhala</a>
+                    <a href="#">Tamil</a>
+                </section>
+            </section>
+        </section>
+    </section>
+    <section class="content">
+        <section class="text">
+            <h1>Donate Us</h1>
+            <img src="./donation.jpg" alt="donation">
+        </section>
+    </section>
+    <br>
+    <section class="form">
+    <form>
+        <fieldset>
+            <legend>Donation Form</legend><br>
+        <p>
+            <label for="name">Full Name:</label>
+            <input type="text" name="fname" id="fname" required>
+        </p>
+        <br>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email" placeholder="example@mail.com" required>
+        </p>
+        <br>
+        <p>
+            <label for="cardnumber">Card Number:</label>
+            <input type="text" name="cardnumber" id="cardnumber" maxlength="16" required>
+        </p>
+        <br>
+        <p>
+            <label for="cvv">CVV:</label>
+            <input type="password" name="cvv" id="cvv" maxlength="3" required>
+        </p>
+        <br>
+        <p>
+            <label for="validthru">Valid Thru:</label>
+            <input type="text" name="validthru" id="validthru" maxlength="5" placeholder="MM/YY" required>
+        </p>
+        <br>
+        <p>
+        <fieldset>
+            <legend>Donation Amount</legend>
+            <br>
+            <p>
+            <input type="radio" id="100" name="amount" value="100">
+            <label for="100">100 LKR</label>
+            <input type="radio" id="250" name="amount" value="250">
+            <label for="250">250 LKR</label>
+            <input type="radio" id="500" name="amount" value="500">
+            <label for="500">500 LKR</label>
+            <input type="radio" id="1000" name="amount" value="1000">
+            <label for="1000">1000 LKR</label>
+            <input type="radio" id="2500" name="amount" value="2500">
+            <label for="2500">2500 LKR</label>
+            <input type="radio" id="5000" name="amount" value="5000">
+            <label for="5000">5000 LKR</label>
+            <input type="radio" id="10000" name="amount" value="10000">
+            <label for="10000">10000 LKR</label>
+            </p>
+            <br>
+        </fieldset>
+        <button type onclick="myFunction()" id="tt" value="Donate">Donate</button>
+        </fieldset>
+    </form>
+    </section>
+    <br>
+    <header><h2>Purchase Our Products</h2></header>
+    <section class="card">
+        <span class="item-name">Sri Lanka flag map Essential T-Shirt</span>
+        <br>
+        <img class="item-image" src="./Sri Lanka flag map Essential T-Shirt.jpg">
+        <br>
+        <section class="shop-item-details">
+            <span class="item-cost">$22.88</span>
+            <br><br>
+            <article>Just your everyday smooth, comfy tee, a wardrobe staple
+                Slim fit, so size up if you prefer a looser fit, or check out the Classic T-Shirt
+                Male model shown is 6'0" / 183 cm tall and wearing size Large
+                Female model shown is 5'8" / 173 cm tall and wearing size Small
+                Midweight 4.2 oz. / 145 gsm fabric, solid color t-shirts are 100% cotton, heather grey t-shirts are 90% cotton/10% polyester charcoal heather t-shirts are 52% cotton/48% polyester</article>
+                <br>
+            <button class="btn btn-primary add-to-favourites" type="button">Add to favourites</button>
+        </section>
+    </section>
+<section class="card">
+    <span class="item-name">Life is better in Sri Lanka Classic T-Shirt</span>
+    <br>
+    <img class="item-image" src="./Life is better in Sri Lanka Classic T-Shirt.jpg">
+    <br>
+    <section class="shop-item-details">
+        <span class="item-cost">$26.70</span>
+        <br><br>
+        <article>The standard, traditional t-shirt for everyday wear
+            Classic, generous, boxy fit
+            Male model shown is 6'0" / 183 cm tall and wearing size Medium
+            Female model shown is 5'8" / 173 cm tall and wearing size Small
+            Heavyweight 5.3 oz / 180 gsm fabric, solid colors are 100% preshrunk cotton, heather grey is 90% cotton/10% polyester, denim heather is 50% cotton/ 50% polyester
+            Double-needle hems and neck band for durability</article>
+            <br>
+        <button class="btn btn-primary add-to-favourites"type="button">Add to favourites</button>
+    </section>
+</section>
+<section class="card">
+        <span class="item-name">The Lion Nation Premium T-Shirt</span>
+        <br>
+        <img class="item-image" src="./The Lion Nation Premium T-Shirt.jpg">
+        <br>
+        <section class="shop-item-details">
+            <span class="item-cost">$41.54</span>
+            <br><br>
+            <article>Luxe top-of-the-line tee with a larger print area, extra layer of printing, and gift-ready packaging
+                Regular fit
+                Model shown is 6' / 183 cm tall and wearing size Medium
+                Heavyweight 5.3 oz. / 180 gsm fabric, solid color t-shirts are 100% cotton, heathered and marled fabrics are 85% cotton/15% polyester
+                Taped shoulder seams, double-needle hems, and self-fabric neck bind for maximum durability
+                Printed on ethically sourced, high quality AS Colour tees
+                Preshrunk</article>
+                <br>
+            <button class="btn btn-primary add-to-favourites" type="button">Add to favourites</button>
+        </section>
+    </section>
+    <section class="card">
+        <section class="shop-item">
+            <span class="item-name">Have No Fear The Sri Lankan is here Pride Proud Sri Lanka Essential T-Shirt</span>
+            <br><br>
+            <img class="item-image" src="./Have No Fear The Sri Lankan is here Pride Proud Sri Lanka Essential T-Shirt.jpg">
+            <br>
+            <section class="shop-item-details">
+                <span class="item-cost">$41.54</span>
+                <br><br>
+                <article>Just your everyday smooth, comfy tee, a wardrobe staple
+                    Slim fit, so size up if you prefer a looser fit, or check out the Classic T-Shirt
+                    Male model shown is 6'0" / 183 cm tall and wearing size Large
+                    Female model shown is 5'8" / 173 cm tall and wearing size Small
+                    Midweight 4.2 oz. / 145 gsm fabric, solid color t-shirts are 100% cotton, heather grey t-shirts are 90% cotton/10% polyester charcoal heather t-shirts are 52% cotton/48% polyester</article>
+                    <br>
+                <button class="btn btn-primary add-to-favourites" type="button">Add to favourites</button>
+            </section>
+        </section>
+    </section>
+</section>
+<br><hr>
+    <section class="cart-row">
+        <span class="cart-item cart-header cart-column"><mark>Shop Item</mark></span>
+        <span class="cart-cost cart-header cart-column"><mark>Cost</mark></span>
+        <span class="cart-quantity cart-header cart-column"><mark>Quantity</mark></span>
+    </section>
+    <section class="cart-items">
+    </section>
+    <section class="cart-total">
+        <strong class="cart-total-title"><mark>Total</mark></strong>
+        <span class="cart-total-cost"><mark>$0</mark></span>
+    </section>
+    <button class="btn btn-primary btn-purchase" type="button">Order favourite</button>
+    <button class="btn btn-primary btn-purchase" type="button">Check loyalty</button>
+</section>
+                <footer class="foot">
+                    <article>
+                    Copyright © 2022 All Rights Reserved by Sri Lanka Tourism Development Authority.<br><br>
+                    Privacy Policy<br>
+                    Terms & Conditions
+                    </article>
+                    <section class="reference">
+                        Reference:
+                        <a href="https://www.pexels.com/" target="_blank">Pexels</a>
+                        <a href="https://www.redbubble.com/" target="_blank">Red Bubble</a>
+                    </section>
+                </footer>
+                <script src="./donate.js"></script>
+                <script src="./cart.js"></script>
+                <script src="./main.js"></script>
+</html>
